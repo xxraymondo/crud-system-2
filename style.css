@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+::selection {
+    background-color: #333333;
+    color: #c5c5c5;
+}
+
+#update {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.newpro{
+    height: 50%;
+}

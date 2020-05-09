@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya|Lobster|Baloo+Chettan+2|Caladea|Caveat|Dancing+Script|Anton|&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container mt-5">
+
+
+        <label>
+            Product Name:
+        </label>
+
+        <input id="productName" type="text" class="form-control mb-3">
+        <label>
+            Product Price:
+        </label>
+
+        <input id="productPrice" type="number" class="form-control mb-3">
+        <label>
+            Product Category:
+        </label>
+
+        <input id="productCategory" type="text" class="form-control mb-3">
+        <label>
+            product img
+        </label>
+        <input id="productImg" type="url" class="form-control mb-3">
+        <label> 
+            Product Descreption:
+        </label>
+
+        <input id="productDescreption" type="text" class="form-control mb-3">
+        <button id="addProBut" class="add btn btn-info mb-5">add product</button>
+       <div class="row justify-content-center">
+        <div class="col-md-6 ">
+            <input id="search" onkeyup="searching(this.value)" class="form-control " placeholder="search">
+            <div id="searchRes" class="mb-3" ></div>
+        </div>
+       </div>
+        <div id="newProduct" class="row">
+         
+                </div>
+            </div>
+       
+        </div>
+    </div>
+
+    </div>
+    <div id="update" class="bg-black ">
+        <div class="container d-flex align-items-center mt-5 flex-column">
+
+            <label>
+            Product Name:
+        </label>
+
+            <input id="productNameUpdate" type="text" class="w-50 form-control mb-3">
+            <label>
+            Product Price:
+        </label>
+
+            <input id="productPriceUpdate" type="number" class=" w-50 form-control mb-3">
+            <label>
+            Product Category:
+        </label>
+
+            <input id="productCategoryUpdate" type="text" class="w-50 form-control mb-3">
+            <label>
+            product img
+        </label>
+            <input id="productImgUpdate" type="url" class=" w-50 form-control mb-3">
+            <label> 
+            Product Descreption:
+        </label>
+        <button id="new" class="btn btn-info">nnnn</button>
+            <input id="productDescreptionUpdate" type="text" class="w-50 form-control mb-3">
+            <!-- <div class="row justify-content-between w-25">
+            <button id="hide" onclick="updatePro()" class=" btn btn-info mb-5 "> update</button>
+            <button id="confrim" class=" btn btn-info mb-5 "> confrim</button>
+        </div> -->
+        </div>
+
+    </div>
+    <script src="jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="first.js "></script>
+</body>
+
+</html>
