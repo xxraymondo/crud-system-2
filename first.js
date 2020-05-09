@@ -117,12 +117,6 @@ function updatePro(index){
     currentIndex=index
     $("#update").slideDown(500)
 
-    // productName.value=productArr[index].name;
-    // productPrice.value=productArr[index].name;
-    // productCategory.value=productArr[index].name;
-    // productImg.value=productArr[index].name;
-    // productDescreption.value=productArr[index].name;
-    // addProBut.innerHTML="update"
 }
 $("#new").click(function(){
     ayHaga()  
