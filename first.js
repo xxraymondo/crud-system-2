@@ -50,7 +50,7 @@ function display(){
     
     <div class="col-md-3 p-2 proData">
     <div class="p-1 rounded border" >
-    <div class="bg-danger newpro">
+    <div class=" newpro">
         <img class="w-100" src="${productArr[i].img}">
         </div>
         <div class="d-flex justify-content-around">
